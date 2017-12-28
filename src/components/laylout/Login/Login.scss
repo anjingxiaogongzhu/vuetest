@@ -1,0 +1,38 @@
+.warpLogin {
+    position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+    background: url('../../../assets/image/bg.png') 100% 100%  no-repeat;
+    .contentLogin {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        width: 520px;
+        height: 400px;
+        background: #fff;
+        border-radius: 6px;
+        .titleLogin {
+            margin: 20px auto;
+            font-size: 28px;
+            font-weight: 500;
+            color: #333;
+        }
+        .formLogin {
+            width: 400px;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            .remPwd {
+                float: left;
+            }
+            .btnLogin {
+                width: 100%
+            }
+        }
+
+    }
+}
