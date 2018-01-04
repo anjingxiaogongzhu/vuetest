@@ -5,7 +5,12 @@ import App from './App'
 import router from './router'
 import ElementUI from 'element-ui'
 import 'element-ui/lib/theme-chalk/index.css'
+import 'vue-awesome/icons/flag'
+import 'vue-awesome/icons'
+import Icon from 'vue-awesome/components/Icon'
+import 'font-awesome/css/font-awesome.css'
 
+Vue.component('icon', Icon)
 
 Vue.config.productionTip = false
 Vue.use(ElementUI)
@@ -15,5 +20,5 @@ new Vue({
   el: '#app',
   router,
   template: '<App/>',
-  components: { App }
+  components: { App, Icon }
 })
