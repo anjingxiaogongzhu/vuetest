@@ -12,6 +12,7 @@ Vue.use(Router)
 const login = () => syncModulesImport('login')
 const mainFrame = () => syncModulesImport('mainFrame')
 const experience = () => syncModulesImport('experience')
+const billManage = () => syncModulesImport('billManage')
 
 
 export default new Router({
@@ -33,8 +34,13 @@ export default new Router({
       children: [
         {
           path: '/experience',
-          name: '资讯列表',
+          name: '历程',
           component: experience
+        },
+        {
+          path: '/billManage',
+          name: '账户管理',
+          component: billManage
         }
       ]
     },

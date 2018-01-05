@@ -104,7 +104,7 @@ export default {
               title: '财务管理',
               subs: [
                 {
-                  index: '/bill', // 路由名
+                  index: '/billManage', // 路由名
                   title: '账单管理'
                 },
                 {

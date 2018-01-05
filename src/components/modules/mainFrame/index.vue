@@ -23,7 +23,6 @@
   #mainContent {
     margin-top: 100px;
     margin-left: 150px;
-    background-color: #F3F4F5;
     position: relative;
   }
 </style>
